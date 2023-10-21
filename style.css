@@ -1,0 +1,134 @@
+:root {
+  /* CSS HEX */
+  --onyx: #3c3c3cff;
+  --bone: #d9d4c1ff;
+  --verdigris: #83b3b3ff;
+  --silver: #c8c8c8ff;
+  --burnt-sienna: #d57f5cff;
+  
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    width: 100vw;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+/* Untuk browser Firefox */
+body::-moz-scrollbar {
+  display: none;
+}
+
+
+.bungee{
+    font-family: 'Bungee', sans-serif;
+}
+.bungee-shade{
+    font-family: 'Bungee Shade', sans-serif;
+}
+.quicksand{
+    font-family: 'Quicksand', sans-serif;
+}
+.large-text{
+    font-size: 3rem;
+}
+.text{
+    text-align: justify;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.retro-white{
+    color: #f6f0f0;
+}
+.bg-retro-white{
+    background-color: #f6f0f0;
+}
+.striped-border{
+    border-bottom: 1px dashed var(--onyx);
+}
+
+
+nav{
+    background-color: var(--verdigris);
+    border-bottom: 1px dashed;
+    width: 100vw;
+}
+
+.jumbo {
+  background-color: var(--verdigris);
+}
+.retroimg{
+    width: 80%;
+    max-width: 600px;
+}
+.key{
+    height: 100px;
+}
+
+.about{
+    background-color: var(--bone);
+    /* background-image: url("img/aboutbg.jfif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+.whati{
+    border: 2px solid black;
+}
+
+.portfolio{
+    background-color: var(--burnt-sienna);
+    /* background-image: url("img/aboutbg.jfif"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+}
+.cardtext{
+    height: 75px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bungee', sans-serif;
+}
+.card-type{
+    width: 50px;height: 50px;position: absolute;top:110px;border: 3px solid white;
+}
+
+.contact{
+    width: 100vw;
+    background-color: var(--onyx);
+    color: var(--bone);
+}
+.formin{
+    height: 200px;
+}
+input{
+    background-color: var(--bone);
+    border: 1px solid black;
+    margin-bottom: 4px;
+    height: 45px;
+}
+.subject{
+    height: 100px;
+    margin-bottom: 0px;
+}
+textarea{
+    background-color: var(--bone);
+    border: 1px solid black;
+    margin-bottom: 4px;
+    width: 100%;
+}
+button{
+    background-color: orange;
+    border: 1px solid black;
+    width: 165px;
+    height: 40px;
+}
+
+.footer{
+    background-color: #0c0c0cff;
+    color: white;
+    height: 80px;
+}

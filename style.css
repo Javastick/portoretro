@@ -134,26 +134,7 @@ nav{
     background-color: var(--onyx);
     color: var(--bone);
 }
-.formin{
-    height: 200px;
-}
-input{
-    background-color: var(--bone);
-    border: 1px solid black;
-    margin-bottom: 4px;
-    height: 45px;
-}
-.subject{
-    height: 100px;
-    margin-bottom: 0px;
-}
-textarea{
-    background-color: var(--bone);
-    border: 1px solid black;
-    margin-bottom: 4px;
-    width: 100%;
-}
-button{
+.button{
     background-color: orange;
     border: 1px solid black;
     width: 165px;

@@ -86,8 +86,8 @@ nav{
 }
 
 .card{
-    width: 200px;
-    height: 270px;
+    /* width: 200px; */
+    height: 45vh;
 }
 .card-body{
     height: 30%
@@ -124,8 +124,13 @@ nav{
     background-size: cover;
 }
 .if{
-    background: url("img/survey.png");
+    background: url("img/tcx.png");
     background-size: cover;
+}
+.ig{
+    background: url("img/onlinestore.png");
+    background-size: cover;
+
 }
 
 
